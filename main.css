@@ -1,0 +1,7 @@
+body {
+  background-color: rgb(255, 255, 255);
+};
+
+#body.toggled {
+  background-color: rgb(000, 000, 000);
+}
