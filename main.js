@@ -7,10 +7,11 @@ function calc() {
 
   if (op == "add") {
     calculate = (a + b);
-  } else if (op === "sub") {
+  } else if (op === "min") {
+    console.log("pass");
     calculate = (a - b);
   } else if (op === "div") {
-    calculate = (a / b)
+    calculate = (a / b);
   } else if (op === "mul") {
     calculate = (a * b);
   };
